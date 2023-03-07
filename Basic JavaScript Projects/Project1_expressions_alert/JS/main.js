@@ -6,3 +6,5 @@ var lastName= "Velasco";
 var fullName= firstName + " " + lastName;
 
 document.write(fullName);
+
+document.write(3+3);
