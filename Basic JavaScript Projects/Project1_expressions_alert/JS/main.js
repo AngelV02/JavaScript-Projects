@@ -1,1 +1,1 @@
-alert("HELLLO WORLD!");
+window.alert("HELLLO WORLD!");
