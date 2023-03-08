@@ -1,11 +1,11 @@
-function addition(x, y) {
-    return x + y;
+function subraction(x, y) {
+    return x - y;
 }
 
 function displayResult() {
-    var x = 3;
+    var x = 15;
     var y = 12;
-    var result = addition(x, y);
+    var result = subraction(x, y);
     var output = document.getElementById("Math");
-    output.innerHTML = "The result of " + x + " x " + y + " is " + result;
+    output.innerHTML = "The result of " + x + " - " + y + " is " + result;
 }
