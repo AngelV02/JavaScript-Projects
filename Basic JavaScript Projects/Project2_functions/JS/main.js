@@ -3,5 +3,5 @@ function text() {
      var age = 25;
      var output = document.getElementById("output");
 
-     output.innerHTML = "My name is " + name + " and I am " + age + " years old.";
+     output.innerHTML += " My name is " + name + " and I am " + age + " years old.";
 }
