@@ -1,1 +1,84 @@
+/* set background color of the body */ 
+body {
+    background-color: rgb(0, 0, 197);
+}
 
+/* Sets the font family and color of the heading tags */
+h1 { 
+    font-family: arial, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: arial, sans-serif;
+    color: white;
+}
+
+div {
+    font-family: arial, sans-serif;
+    color: white;
+}
+
+/* Set the width, height and margin of the menu background div */
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+/* Set the width and height of the menu form */
+#frmMenu {
+    width: 400px;
+    height: 200px;
+}
+
+/* Set the width, height, margin, and float of the total price div */
+#totalPrice {
+    width: 200px;
+    height: 190px;
+    margin: 0 auto;
+    float: right;
+}
+
+/* Set the width, height, and float of the left column div */
+.left {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+/* Set the width, height, and float of the right column div */
+.right {
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+/* Set the width, height, and float of the middle column div */
+.middle {
+    width: 200px;
+    height: 200px;
+    float : left;
+}
+
+/* Set the width, height, margin, and float of the show text div */
+#showText {
+    width: 200px;
+    height: 190px;
+    margin: 0px auto;
+    float: left;
+}
+
+/* Set the position, margin, width, and height of the cart div */
+#cart {
+    top: 0;margin: 0px auto;
+    width: 400px;
+    height: 200px;
+}
+
+/* Set the margin, width, and height of the order button */
+#btnOrder{
+    margin: 10px 0px 0px 100px;
+    width: 100px;
+    height: 40px;
+}
