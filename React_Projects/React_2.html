@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://fb.me/react-0.14.3.js"></script>
+        <script src="https://fb.me/react-dom-0.14.3.js"></script>
+    </head>
+
+    <body>
+
+        <div id="like_button_container"></div>
+
+        <script>
+            const X = React.createElement;
+
+            class likeButton extends React.Component {
+                constructor(props) {
+                    super(props);
+                    this.state = {liked: false};
+                }
+
+                render() {
+                    if (this.state.liked) {
+                        return 'You clicked the like button!';
+                    }
+                
+                    return X (
+                        'button',
+                        { onclick: () => this.setState ({ liked: true}) },
+                        'like'
+                    );
+                }
+            }
+
+            const domContainer = document.querySelector('#like_button_container');
+            ReactDOM.render(X(likeButton), domContainer);
+        </script>
+
+    </body>
+</html>
